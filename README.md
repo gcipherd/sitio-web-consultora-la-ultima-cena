@@ -1,20 +1,32 @@
-# Trabajo-Colaborativo
+# [Outflip](https://github.com/danjrosales/sitio-web-consultora-la-ultima-cena)
 
-1. Clonar el repositorio: ```git clone https://github.com/BlackrockDigital/startbootstrap-business-frontpage.git```
-2. Dividir el trabajo en los integrantes del equipo
-3. Cada integrante creará una rama(branch) donde realizará sus cambios
-* Acerca de nosotros
-* Servicios/productos
-* Nuestros clientes
-* Blog
-* Contacto
+¡Con outflip tú eliges cómo te verás! Gracias a nuestro material secreto podemos crear cualquier tipo de prenda y con cualquier tipo de textura: seda, algodón, mezclilla, terciopelo, etc.
 
-4. Realizar las peticiones de actualziación(pull request)
-5. Juntar su trabajo en la rama principal(merge)
+Además, con nuestra aplicación (en conjunto con nuestra súper tecnología secreta) puedes cambiar el diseño de tu prenda, ¡cuándo quieras y a la hora que quieras! Desde tu sombrero, gafas, pasando por tu blusa, playera, ¡hasta tus calcetas!
 
-## Enlaces
+¿Qué esperas para tomar las riendas de tu estilo y expresar lo que realmente eres?
 
-- GitHub Guide: https://guides.github.com/activities/hello-world/
-- GitHub Learning Lab: https://lab.github.com/courses
-- GitHub Desktop: https://desktop.github.com/
-- Atom: https://atom.io/
+## Más sobre nosotros
+
+Somos una empresa 100% mexicana, con 10 años de experiencia en proveer diseños innovadores para tu día a día, nuestros diseños han sido portados por grandes artistas de talla mundial, e incluso hemos estado presentes en las mejores pasarelas de moda. Nuestro éxito radica en nuestros diseñadores y en la calidad de nuestros productos.
+Con nosotros encontrarás lo que éstas buscando, la mejor variedad y el mejor precio, hay diseños para todas las edades y gustos, e incluso puedes formar parte de nuestro gran equipo de diseñadores.
+
+# Sobre el proyecto
+
+## Frameworks, bibliotecas y plantillas usadas
+
+* [Bootstrap 4](https://getbootstrap.com/)
+* [JQuery 3.3.1](https://jquery.com/)
+* [DataTables](https://datatables.net/)
+* [FontAwesome] (https://fontawesome.com/)
+* [Plantilla Business Frontpage](https://www.github.com/BlackrockDigital/startbootstrap-business-frontpage)
+
+## Autores
+
+* [@Arthur-R2D2](https://www.github.com/Arthur-R2D2)
+* [@bnl75](https://www.github.com/bnl75)
+* [@karenmpm](https://www.github.com/karenmpm)
+* [@LuisZamMX](https://www.github.com/LuisZamMX)
+* [@Mike-807](https://www.github.com/Mike-807)
+* [@gcipherd](https://www.github.com/gcipherd)
+

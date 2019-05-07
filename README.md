@@ -18,7 +18,7 @@ Con nosotros encontrarás lo que éstas buscando, la mejor variedad y el mejor p
 * [Bootstrap 4](https://getbootstrap.com/)
 * [JQuery 3.3.1](https://jquery.com/)
 * [DataTables](https://datatables.net/)
-* [FontAwesome] (https://fontawesome.com/)
+* [FontAwesome](https://fontawesome.com/)
 * [Plantilla Business Frontpage](https://www.github.com/BlackrockDigital/startbootstrap-business-frontpage)
 
 ## Autores

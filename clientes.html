@@ -13,8 +13,14 @@
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+
   <!-- Custom styles for this template -->
   <link href="css/business-frontpage.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
 
 </head>
 
@@ -118,10 +124,33 @@
                 
           </div>
           
-          <p>
-              <br><br><b>Outflip </b>junto con otras marcas mexicanas se ha propuesto dejar en alto la moda nacional, por lo que nuestra marca no solo pretende basarse en playeras, sino revolucionar y llegar a la industria del calzado. Nuestros clientes <b>AVF artesanos </b>son una empresa que toma diseños artesanales michoacanos y los plasma en un huarache; dándonos la oportunidad de apoyar el diseño artesanal y compartirlo con el mundo.</p>
-              <br><br>
-              <a class="btn btn-primary btn-lg" href="index.html"> Regresar al inicio &raquo;</a>
+         
+          <br><br><b>Outflip </b>junto con otras marcas mexicanas se ha propuesto dejar en alto la moda nacional, por lo que nuestra marca no solo pretende basarse en playeras, sino revolucionar y llegar a la industria del calzado. Nuestros clientes <b>AVF artesanos </b>son una empresa que toma diseños artesanales michoacanos y los plasma en un huarache; dándonos la oportunidad de apoyar el diseño artesanal y compartirlo con el mundo.</p>
+          <br><br>
+          <hr class="mt-3">
+          <h2>¡Usa nuestra tabla de clientes interactiva!</h2>
+          <hr class="mb-3 mt-3">
+          <table id="example" class="display" style="width:100%">
+            <thead>
+              <tr>
+                <th>Nombre</th>
+                <th>Giro</th>
+                <th>Oficinas</th>
+              </tr>
+            </thead>
+            <tfoot>
+              <tr>
+                <th>Nombre</th>
+                <th>Giro</th>
+                <th>Oficinas</th>
+              </tr>
+            </tfoot>
+          </table>
+
+          <br>
+          <hr class="mb-3 mt-3">
+
+          <a class="btn btn-primary btn-lg" href="index.html"> Regresar al inicio &raquo;</a>
       </div>
       <br>
       <br>
@@ -137,10 +166,14 @@
     <!-- /.container -->
   </footer>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
 </body>
+
+<script>
+    $(document).ready(function() {
+      $('#example').DataTable( {
+          "ajax": 'array.txt'
+      } );
+  } );
+  </script>
 
 </html>

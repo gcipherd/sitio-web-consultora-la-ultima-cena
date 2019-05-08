@@ -1,0 +1,59 @@
+{
+  "data": [
+    [
+      "American Eagle",
+      "Tienda de ropa y accesorios",
+      "Estados Unidos"
+    ],
+    [
+      "Oysho",
+      "Diseño de lencería",
+      "España"
+    ],
+    [
+      "Victoria's Secret",
+      "Diseño de lencería",
+      "Estados Unidos"
+    ],
+    [
+      "Adidas",
+      "Empresa de diseño",
+      "Alemania"
+    ],
+    [
+      "AVF artesanos",
+      "Diseñadores de textiles folclóricos",
+      "México"
+    ],
+    [
+      "Doce Cero Tres",
+      "Tienda de ropa",
+      "México"
+    ],
+    [
+      "Yakampot",
+      "Tienda de ropa",
+      "México"
+    ],
+    [
+      "Malafacha",
+      "Servicios de diseño",
+      "México"
+    ],
+    [
+      "Nike",
+      "Empresa de diseño",
+      "Estados Unidos"
+    ],
+    [
+      "Inditex",
+      "Industria de diseño textil",
+      "España"
+    ],
+    [
+      "Cuidado con el perro",
+      "Tienda de ropa",
+      "México"
+    ]
+  ]
+}

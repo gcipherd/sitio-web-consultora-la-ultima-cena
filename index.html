@@ -10,11 +10,15 @@
   <title> Outflip </title>
   <link rel="shortcut icon" type="img/png" href="img/icons8-t-shirt-64.png">
 
+  <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="owlcarousel/owl.theme.green.min.css">
+
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   <!-- Custom styles for this template -->
@@ -116,26 +120,10 @@
     <div class="row">
       <div class="col-md-4 mb-5">
         <div class="card h-100">
-          <div id="carousel1" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img class="d-block w-100" src="img/shirt1.jpg" alt="First slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="img/shirt2.jpg" alt="Second slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="img/shirt3.jpg" alt="Third slide">
-              </div>
-            </div>
-            <a class="carousel-control-prev" href="#carousel1" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carousel1" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
+          <div class="owl-carousel owl-theme">
+              <div class="item"><img src="img/shirt1.jpg" alt="Primer slide"></div>
+              <div class="item"><img src="img/shirt2.jpg" alt="Segundo slide"></div>
+              <div class="item"><img src="img/shirt3.jpg" alt="Tercer slide"></div>
           </div>
           <div class="card-body">
             <h4 class="card-title">Nuestros Diseños</h4>
@@ -148,26 +136,10 @@
       </div>
       <div class="col-md-4 mb-5">
         <div class="card h-100">
-          <div id="carousel2" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img class="d-block w-100" src="img/dress1.jpg" alt="First slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="img/full1.jpg" alt="Second slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="img/sweater1.jpg" alt="Third slide">
-              </div>
-            </div>
-            <a class="carousel-control-prev" href="#carousel2" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carousel2" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
+          <div class="owl-carousel owl-theme">
+              <div class="item"><img src="img/dress1.jpg" alt="Primer slide"></div>
+              <div class="item"><img src="img/full1.jpg" alt="Segundo slide"></div>
+              <div class="item"><img src="img/sweater1.jpg" alt="Tercer slide"></div>
           </div>
           <div class="card-body">
             <h4 class="card-title">¡Más que sólo playeras!</h4>
@@ -180,26 +152,10 @@
       </div>
       <div class="col-md-4 mb-5">
         <div class="card h-100">
-          <div id="carousel3" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img class="d-block w-100" src="img/clientes1.png" alt="First slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="img/clientes2.png" alt="Second slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="img/clientes3.jpg" alt="Third slide">
-              </div>
-            </div>
-            <a class="carousel-control-prev" href="#carousel3" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carousel3" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
+          <div class="owl-carousel owl-theme">
+              <div class="item"><img src="img/clientes1.png" alt="Primer slide"></div>
+              <div class="item"><img src="img/clientes2.png" alt="Segundo slide"></div>
+              <div class="item"><img src="img/clientes3.jpg" alt="Tercer slide"></div>
           </div>
           <div class="card-body">
             <h4 class="card-title">¿Necesitas una campaña?</h4>
@@ -252,6 +208,25 @@
     </div>
   </div>
   <!-- /.container -->
+
+  <script>
+    $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+})
+  </script>
 
   <!-- Footer -->
   <footer class="py-5 bg-dark">

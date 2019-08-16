@@ -1,4 +1,4 @@
-# [Outflip](https://github.com/danjrosales/sitio-web-consultora-la-ultima-cena)
+# [Outflip](https://github.com/gcipherd/sitio-web-consultora-la-ultima-cena)
 
 ¡Con outflip tú eliges cómo te verás! Gracias a nuestro material secreto podemos crear cualquier tipo de prenda y con cualquier tipo de textura: seda, algodón, mezclilla, terciopelo, etc.
 
